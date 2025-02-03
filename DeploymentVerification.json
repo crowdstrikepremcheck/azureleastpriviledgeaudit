@@ -10,7 +10,7 @@
   "variables": {
 	    "RunbookA": "[uri('https://raw.githubusercontent.com/crowdstrikepremcheck/azureleastpriviledgeaudit/refs/heads/main/SecurityAudit.ps1')]",
 		"RunbookB": "[uri('https://raw.githubusercontent.com/crowdstrikepremcheck/azureleastpriviledgeaudit/refs/heads/main/SecurityCentreAudit.ps1')]",
-		"DeploymentVerification": "[uri('')]",
+		"DeploymentVerification": "[uri('https://raw.githubusercontent.com/crowdstrikepremcheck/azureleastpriviledgeaudit/refs/heads/main/DeploymentVerification.json')]",
     },
   "resources": [
     {
